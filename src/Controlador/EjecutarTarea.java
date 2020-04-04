@@ -9,10 +9,7 @@ import Clases.ClaseCA;
 import Clases.ClaseCB;
 import Clases.ClaseCD;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
 
 /**
  *
@@ -42,7 +39,8 @@ public class EjecutarTarea {
         Collections.sort(Clase1);
 
         for (ClaseCA auxiliar : Clase1) {
-            System.out.println("Los elementos oredenados de mayor a menor X " + auxiliar.x + " Numeros Y " + auxiliar.y);
+            System.out.println("Los elementos oredenados de mayor a menor X " + auxiliar.x + 
+                    " Numeros Y " + auxiliar.y);
         }
 
     }
